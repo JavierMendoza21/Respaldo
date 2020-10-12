@@ -1,0 +1,25 @@
+Subir mi repositorio local a github
+	git init
+
+	git add .
+
+	git commit -m "first commit"
+
+	git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+
+	git push -u origin master
+	
+Cambiar version de JAVA jdk
+	sudo update-alternatives --config java
+
+Reiniciar el adaptador de red
+	sudo systemctl restart NetworkManager.service
+	
+Buscar el proceso de un puerto
+	sudo netstat -putona | grep (4848)
+
+Eliminar proceso
+	kill -9 (23467)
+
+Desfragmentar disco duro
+	sudo e4defrag /dev/sda*
