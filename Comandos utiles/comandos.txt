@@ -23,3 +23,6 @@ Eliminar proceso
 
 Desfragmentar disco duro
 	sudo e4defrag /dev/sda*
+comprimir un archivo en partes
+	rar a -r -s -v51200 minuevoarchivo.rar "directorio/a/comprimir/"	
+

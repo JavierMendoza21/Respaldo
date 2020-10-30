@@ -1,5 +1,15 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  //h1= title
+  //p Welcome to #{title}
+
+  form(action="/iniciar" name="form1" method="post" id="form1")
+    label(for="idnombre") Nombre : 
+    input(type="text" id="idnombre" name="name")
+    br
+    br
+    label(for="idpassword") Contraseña : 
+    input(type="password" id="idpassword")
+    br
+    input(type="submit", value="Enviar" name="pass")

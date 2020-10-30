@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+int len(char *c);
+
+bool comp(char *a,char *b);
+
+
+int main() {
+    
+    char *c1="Javier";
+    char *c2="Cadena";
+    char *c3="otra cadena";
+
+    printf("La cadena %s tiene : %i caracteres\n",c1,len(c1));
+
+    
+    
+    if(comp(c2,c3)){
+        printf("Las cadenas %s y %s son iguales",c2,c3);
+    }else{
+        printf("Las cadenas %s y %s son diferentes",c2,c3);
+    }
+
+    return 0;
+}
+
+int len(char *cadena){
+    int contador=0;
+    while(*cadena!='\0'){
+        contador++;
+        cadena++;
+    }
+    return contador;
+}
+
+bool comp(char *cadena1,char *cadena2){
+    if(len(cadena1)==len(cadena2)){
+        while(*cadena1!='\0'){
+            if(*cadena1!=*cadena2){
+                return false;
+            }
+            cadena1++;
+            cadena2++;
+        }
+        return true;
+    }else{
+        return false;
+    }
+}
+
