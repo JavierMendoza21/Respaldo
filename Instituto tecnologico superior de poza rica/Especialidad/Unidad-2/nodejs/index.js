@@ -1,4 +1,5 @@
 const express = require("express");
+const { crearMateria } = require('controladores/materia');
 //const cors = require('cors');
 const { oConn } = require('./db/conexion');
 
@@ -7,7 +8,7 @@ const app = express();
 
 app.use(express.json);
 oConn();
-app.use('api/materias', require('./rutas/rutas'));
+app.use('api/materias/:idMateria/:nombreMateria', crearMateria);
 
 
 app.listen(3000, () => {
