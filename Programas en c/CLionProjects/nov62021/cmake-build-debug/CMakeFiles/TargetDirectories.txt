@@ -1,0 +1,3 @@
+/home/javier/CLionProjects/nov62021/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/javier/CLionProjects/nov62021/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/javier/CLionProjects/nov62021/cmake-build-debug/CMakeFiles/nov62021.dir

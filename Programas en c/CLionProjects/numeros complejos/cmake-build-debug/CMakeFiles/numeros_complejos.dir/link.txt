@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/numeros_complejos.dir/main.c.o  -o numeros_complejos  -lm -lcurses 

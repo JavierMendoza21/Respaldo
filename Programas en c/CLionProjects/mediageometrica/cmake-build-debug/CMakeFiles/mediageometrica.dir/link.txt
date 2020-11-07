@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/mediageometrica.dir/main.c.o  -o mediageometrica  -lm 

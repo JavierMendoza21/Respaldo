@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/javier/CLionProjects/tarifaLuz/holi.h
+
+/home/javier/CLionProjects/tarifaLuz/main.c
+stdio.h
+-
+holi.h
+/home/javier/CLionProjects/tarifaLuz/holi.h
+

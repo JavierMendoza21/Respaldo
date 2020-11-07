@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/javier/CLionProjects/conversoSN/main.c
+stdio.h
+-
+string.h
+-
+utilidades.h
+/home/javier/CLionProjects/conversoSN/utilidades.h
+
+/home/javier/CLionProjects/conversoSN/utilidades.h
+stdio.h
+-
+math.h
+-
+string.h
+-
+

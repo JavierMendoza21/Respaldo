@@ -1,0 +1,9 @@
+/snap/clion/129/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/javier/CLionProjects/bluetooth
+CMake Error at CMakeLists.txt:8 (target_link_libraries):
+  Target "bluetooth" of type EXECUTABLE may not be linked into another
+  target.  One may link only to INTERFACE, OBJECT, STATIC or SHARED
+  libraries, or to executables with the ENABLE_EXPORTS property set.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/javier/CLionProjects/bluetooth/cmake-build-debug/CMakeFiles/CMakeOutput.log".

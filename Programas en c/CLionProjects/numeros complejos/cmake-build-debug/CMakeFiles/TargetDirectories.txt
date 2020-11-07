@@ -1,0 +1,3 @@
+/home/javier/CLionProjects/numeros complejos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/javier/CLionProjects/numeros complejos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/javier/CLionProjects/numeros complejos/cmake-build-debug/CMakeFiles/numeros_complejos.dir

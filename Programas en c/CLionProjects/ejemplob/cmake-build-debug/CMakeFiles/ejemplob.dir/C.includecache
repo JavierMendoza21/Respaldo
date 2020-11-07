@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/javier/CLionProjects/ejemplob/main.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+bluetooth/bluetooth.h
+-
+bluetooth/hci.h
+-
+bluetooth/hci_lib.h
+-
+

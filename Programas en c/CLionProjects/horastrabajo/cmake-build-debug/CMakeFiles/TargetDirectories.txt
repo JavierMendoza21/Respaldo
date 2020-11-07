@@ -1,0 +1,3 @@
+/home/javier/CLionProjects/horastrabajo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/javier/CLionProjects/horastrabajo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/javier/CLionProjects/horastrabajo/cmake-build-debug/CMakeFiles/horastrabajo.dir
